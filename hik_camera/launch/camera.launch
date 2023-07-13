@@ -1,0 +1,6 @@
+<launch>
+    <rosparam command="load" file="$(find hik_camera)/config/camera.yaml" />
+
+    <node pkg="hik_camera" type="hik_camera" name="hik_camera" output="screen" respawn="false"/>
+
+</launch>

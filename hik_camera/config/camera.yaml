@@ -1,0 +1,16 @@
+hik_camera:
+  connect_time:        2000                # 相机连接时间
+  reconnect_time:      10000               # 相机重连时间
+  asyn_login:          0                   # 0:同步登录方式
+  device_address:      172.24.2.150        # IP
+  port:                62222               # 端口
+  user_name:           admin               # 用户名
+  password:            Admin123            # 密码
+  frame_height:        1080                # 图像高度
+  frame_width:         1920                # 图像宽度
+
+  img_topic_name:      hik_img             # 发布图像的话题名
+
+  camera_name:         hik_camera          # 相机名
+  camera_frame_id:     1                   # 相机ID
+  camera_info_url:     file:///home/halo/dev/01ROS/hik_ros_driver/install/share/hik_camera/config/camera_info.yaml  # 相机信息文件路径
